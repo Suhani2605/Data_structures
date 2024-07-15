@@ -13,9 +13,6 @@ def bubble_sort(arr):
         swapped = True
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
       
-      # If we didn't make any swaps in a pass, 
-      # the list is already sorted and we can 
-      # exit the outer loop
       if not swapped:
         return
 
