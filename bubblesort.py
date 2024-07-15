@@ -20,6 +20,7 @@ def bubble_sort(arr):
         return
 
 # Sample list to be sorted
+#this is an example
 arr = [39, 12, 18, 85, 72, 10, 2, 18]
 print("Unsorted list is:")
 print(arr)
